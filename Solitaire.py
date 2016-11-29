@@ -71,7 +71,7 @@ class ChengYu:
 
 if __name__=="__main__":
 
-	json_file = "/cygdrive/c/Users/zryzhang/Desktop/output.json"
+	json_file = "output.json"
 	
 	with open(json_file, encoding='utf-8') as data_file:
 		usableData = json.load(data_file)
